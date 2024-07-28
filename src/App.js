@@ -1,6 +1,11 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Auth from "./pages/auth";
-import Tracker from "./pages/tracker";
+import { 
+  BrowserRouter as Router, 
+  Route, 
+  Routes 
+} from "react-router-dom";
+import Auth from "./components/pages/auth";
+import Tracker from "./components/pages/tracker";
+import "./index.css";
 
 function App() {
   return (
